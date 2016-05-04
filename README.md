@@ -8,4 +8,4 @@ Ejecuta esto en el terminal:
 
 ## Configurar DNS local
 
-Es importante para que el servicio `traefik` funcione correctamente, la direccion IP del host de docker (`docker-machine ip`) sea agregada como un servidor DNS adicional en el equipo donde se vaya a trabajar.
+Es importante para que el servicio `traefik` funcione correctamente, la direccion IP del host de docker (`docker-machine ip`) sea agregada como un servidor DNS adicional en el equipo donde se vaya a trabajar, para que el dominio deltaplus.local pueda ser resuelto correctamente por el browser y demas herramientas.
