@@ -2,6 +2,14 @@
 
 Inicializa el ambiente de desarrollo para delta-engine.
 
+## Inicializar el proyecto en Linux
+
+Ejecuta esto en el Terminal:
+
+    curl -o- https://raw.githubusercontent.com/deltaplus-ve/docker-compose-init/master/init-linux.sh | bash
+
+## Inicializar el proyecto en Mac o Windows
+
 Ejecuta esto en el Docker Quickstart Terminal:
 
     curl -o- https://raw.githubusercontent.com/deltaplus-ve/docker-compose-init/master/init.sh | bash
