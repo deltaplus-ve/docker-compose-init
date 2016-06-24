@@ -2,6 +2,10 @@
 
 Inicializa el ambiente de desarrollo para delta-engine.
 
+## Dependencias
+
+Asegurate de tener instalado el Docker Engine en tu equipo.
+
 ## Inicializar el proyecto en Linux
 
 Ejecuta esto en el Terminal:
