@@ -25,7 +25,7 @@ Es importante para que el servicio `traefik` funcione correctamente, la direccio
 ## Configuración adicional para Ubuntu / Mint
 
 1. Correr `sudo apt-get update && sudo apt-get install dnsmasq`
-2. Editar el archivo `/etc/dnsmasq.conf' como sudo.
+2. Editar el archivo `/etc/dnsmasq.conf` como sudo.
 3. Agregar/modificar los siguientes valores: 
 ```code
 #Servidores DNS
