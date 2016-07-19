@@ -32,11 +32,9 @@ Es importante para que el servicio `traefik` funcione correctamente, la direccio
 server=/deltaplus.local/172.17.0.1
 server=8.8.8.8
 server=8.8.4.4
-#Interfaces en las que debe funcionar dnsmasq
-#interface=wlan0
-#interface=eth0
-#interface=wlp3s0
-#Descomentar la(s) adecuada(s) segun sea el caso
+#Excluir la interfaz docker0
+#Asegurate de tener instalado docker
+except-interface=docker0
 ```
 4. Editar el archivo `/etc/avahi/avahi-daemon.conf`
 5. Agregar/modificar los siguientes valores:
