@@ -7,6 +7,7 @@ Inicializa el ambiente de desarrollo para delta-engine.
 1. Tener instalado `docker` y `docker-compose`
 2. Tener instalado `nvm` y `node`
 3. Tener instalado `git`
+4. Opcionalmente, pero altamente recomendado, configurar el cache de credenciales de git: `git config --global credential.helper 'cache --timeout=3600'`
 
 ## Configurar DNS local
 
