@@ -40,6 +40,8 @@ use-ipv6=yes
 
 ## Inicializar el proyecto en Linux
 
+_Linux debe estar instalado en ingles para que los comandos funcionen satisfactoriamente._
+
 Ejecuta esto en el Terminal:
 
     curl -o- https://raw.githubusercontent.com/deltaplus-ve/docker-compose-init/master/init-linux.sh | bash
