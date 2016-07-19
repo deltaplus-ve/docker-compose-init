@@ -2,21 +2,11 @@
 
 Inicializa el ambiente de desarrollo para delta-engine.
 
-## Dependencias
+## Requisitos
 
-Asegurate de tener instalado el Docker Engine en tu equipo.
-
-## Inicializar el proyecto en Linux
-
-Ejecuta esto en el Terminal:
-
-    curl -o- https://raw.githubusercontent.com/deltaplus-ve/docker-compose-init/master/init-linux.sh | bash
-
-## Inicializar el proyecto en Mac o Windows
-
-Ejecuta esto en el Docker Quickstart Terminal:
-
-    curl -o- https://raw.githubusercontent.com/deltaplus-ve/docker-compose-init/master/init.sh | bash
+1. Tener instalado `docker` y `docker-compose`
+2. Tener instalado `nvm` y `node`
+3. Tener instalado `git`
 
 ## Configurar DNS local
 
@@ -47,3 +37,15 @@ use-ipv6=yes
 7. Correr `sudo service dnsmasq restart`
 8. Correr `sudo service network-manager restart`
 9. Probar y si no funciona reiniciar el equipo. O contactar a Beto.
+
+## Inicializar el proyecto en Linux
+
+Ejecuta esto en el Terminal:
+
+    curl -o- https://raw.githubusercontent.com/deltaplus-ve/docker-compose-init/master/init-linux.sh | bash
+
+## Inicializar el proyecto en Mac o Windows
+
+Ejecuta esto en el Docker Quickstart Terminal:
+
+    curl -o- https://raw.githubusercontent.com/deltaplus-ve/docker-compose-init/master/init.sh | bash
