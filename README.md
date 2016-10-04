@@ -43,9 +43,13 @@ use-ipv6=yes
 
 _Linux debe estar instalado en ingles para que los comandos funcionen satisfactoriamente._
 
-Ejecuta esto en el Terminal:
+Para clonar las repos via https, ejecuta esto en el Terminal:
 
     curl -o- https://raw.githubusercontent.com/deltaplus-ve/docker-compose-init/master/init-linux.sh | bash
+
+Para clonar las repos via ssh, ejecuta esto en el Terminal:
+
+    curl -o- https://raw.githubusercontent.com/deltaplus-ve/docker-compose-init/master/init-linux-ssh.sh | bash
 
 ## Inicializar el proyecto en Mac o Windows
 
