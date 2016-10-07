@@ -59,4 +59,7 @@ Ejecuta esto en el Docker Quickstart Terminal:
 
 ## Para postgres en delta-graphql
 
-`docker run -it --rm --link delta-postgres:postgres -e PGPASSWORD=deltaflow postgres:9.6 psql -h postgres -U postgres -c "CREATE DATABASE deltaflow WITH OWNER=postgres ENCODING='UTF8'"`
+    docker run -it --rm --link delta-postgres:postgres -e PGPASSWORD=deltaflow postgres:9.6 psql -h postgres -U postgres -c "CREATE DATABASE deltaflow WITH OWNER=postgres ENCODING='UTF8'"
+    docker run --name delta-postgres -e POSTGRES_PASSWORD=deltaflow -p 5432:5432 -d postgres:9.6
+    docker run --name delta-pgadmin4 --link delta-postgres:postgres -p 5050:5050 -d fenglc/pgadmin4
+    
