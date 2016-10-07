@@ -56,3 +56,7 @@ Para clonar las repos via ssh, ejecuta esto en el Terminal:
 Ejecuta esto en el Docker Quickstart Terminal:
 
     curl -o- https://raw.githubusercontent.com/deltaplus-ve/docker-compose-init/master/init.sh | bash
+
+## Para postgres en delta-graphql
+
+`docker run -it --rm --link delta-postgres:postgres -e PGPASSWORD=deltaflow postgres:9.6 psql -h postgres -U postgres -c "CREATE DATABASE deltaflow WITH OWNER=postgres ENCODING='UTF8'"`
