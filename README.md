@@ -39,8 +39,9 @@ use-ipv6=yes
 8. Correr `sudo service network-manager restart`
 9. Probar y si no funciona reiniciar el equipo. O contactar a Beto.
 
-Opcional: En Linux Mint 18.2 hay que desinstalar el paquete libnss-mdns con `sudo apt remote libnss-mdns`.
+Opcional: En Linux Mint 18.2 hay que desinstalar el paquete libnss-mdns con `sudo apt remote libnss-mdns`
 https://askubuntu.com/questions/81797/nslookup-finds-ip-but-ping-doesnt
+Y tambien modificar el archivo `/etc/NetworkManager/NetworkManager.conf` y comentar la linea `dns=dnsmasq`
 
 ## Inicializar el proyecto en Linux
 
